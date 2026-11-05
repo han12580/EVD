@@ -19,7 +19,10 @@ pip install git+https://github.com/facebookresearch/co-tracker.git einops
 | `evd_s.pt` | DINOv3 ViT-S/16 | 24.5 M |
 | `evd_b.pt` | DINOv3 ViT-B/16 | 97.2 M |
 
-Checkpoints are distributed separately. Each one holds the full weights (encoder included) and the
+Download: [Google Drive](https://drive.google.com/drive/folders/1b09wIH3BYXJj2SPzAw1ve0OgB82oI81v?usp=sharing)
+(the encoder weights are fine-tuned from DINOv3 and are subject to the
+[DINOv3 License](https://ai.meta.com/resources/models-and-libraries/dinov3-license/)).
+Each checkpoint holds the full weights (encoder included) and the
 training arguments the model is rebuilt from, so no DINOv3 download is needed.
 
 ## Run
