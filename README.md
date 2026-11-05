@@ -1,5 +1,7 @@
 # EVD — streaming depth for endoscopic video
 
+**Project page:** https://han12580.github.io/EVD/
+
 Inference code for the EVD student: a streaming monocular depth network (DINOv3 ViT encoder + DPT
 decoder with a three-tier depth memory). It processes a video frame by frame and keeps one scale for
 the whole video: the first frame fixes the (unknown) scale and every later frame continues it.
